@@ -1,0 +1,67 @@
+body{
+    background-color: cyan;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.heading
+{
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 500%;
+    font-weight: bolder;
+    
+}
+.drum
+{   border: 10px solid;
+    height: 200px;
+    width: 150px;
+    border-color: blue;
+    border-radius: 8px;
+    font-size: 50px;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    
+   
+}
+.w
+{
+    background-image: url(images/crash.png);
+    background-attachment: url(sounds/crash.mp3);
+    background-size: cover;
+}
+.a
+{
+    background-image: url(images/kick.png);
+    background-size: cover;
+}
+.s
+{
+    background-image: url(images/snare.png);
+    background-size: cover;
+}
+.d
+{
+    background-image: url(images/tom1.png);
+    background-size: cover;
+}
+.i
+{
+    background-image: url(images/tom2.png);
+    background-size: cover;
+}
+.j
+{
+    background-image: url(images/tom3.png);
+    background-size: cover;
+}
+.k
+{
+    background-image: url(images/tom4.png);
+    background-size: cover;
+}
+.pressed
+{box-shadow: 10px 10px 5px #aaaaaa ;
+    opacity: 0.5;
+    
+   
+}
